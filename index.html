@@ -18,11 +18,26 @@
         h2 {
             margin-top: 20px;
             color: #660066;
+            border-bottom: 2px solid #cc99ff; /* Added border under headings */
+            padding-bottom: 5px;
+        }
+        ul {
+            border: 2px dashed #b366ff; /* Dashed border around lists */
+            border-radius: 10px; /* Rounded corners */
+            padding: 15px 30px; /* More padding inside borders */
+            background-color: rgba(255, 255, 255, 0.3); /* Slight white background */
+        }
+        li {
+            margin-bottom: 8px;
         }
         li:hover {
             color: #ff0066;
             transform: scale(1.02);
             transition: all 0.3s;
+        }
+        p {
+            border-left: 4px solid #9933ff; /* Left border for paragraphs */
+            padding-left: 10px;
         }
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -32,6 +47,8 @@
             animation: fadeIn 2s ease-in;
             text-align: center;
             margin-top: 40px;
+            border-top: 2px dotted #9933ff; /* Dotted top border */
+            padding-top: 20px;
         }
     </style>
 </head>
@@ -54,7 +71,7 @@
         <li>Improved my drawing skills by practicing daily 🎨</li>
         <li>Revised the syllabus done in school ✔️</li>
         <li>Learned some basic HTML 😊</li>
-<li>At last I played minecraft with my friends🎮⛏️🪓</li>
+        <li>At last I played Minecraft with my friends 🎮⛏️🪓</li>
     </ul>
 
     <h2>Conclusion</h2>
@@ -62,7 +79,7 @@
 
     <div class="signature">
         <h1><i>From Waris Singh 😁</i></h1>
-<h1><i>created in github.com 😎</i></h1>
+        <h1><i>created in github.com 😎</i></h1>
     </div>
 </body>
 </html>
